@@ -1,0 +1,278 @@
+
+
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Photo Album Website</title>
+  <style>
+    /* Reset & Base Styles */
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f9f9f9;
+  color: #333;
+}
+
+header { background: url('3.jpg') no-repeat center/cover;height:300px;
+  color: white;
+  padding: 2rem 1rem;
+    display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    
+}
+
+header h1 {background: rgba(0, 0, 0, 0.6);
+      padding: 20px 40px;
+      border-radius: 10px;
+      font-size: 3rem;
+      color: #f9f9f9;
+      text-shadow: 2px 2px 4px #000;
+}
+
+header p {
+  font-size: 1.2rem;
+  color: #ccc;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 2rem;
+}
+
+.photo {
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  transition: transform 0.3s;
+}
+
+.photo img {
+  width: 100%;
+  height: 250px;
+  display: block;
+  transition: transform 0.3s;
+}
+
+.photo:hover img {
+  transform: scale(1.05);
+}
+
+.caption {
+  position: absolute;
+  bottom: 0;
+  background: rgba(0,0,0,0.6);
+  color: #fff;
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  text-align: center;
+}
+
+   footer {
+      background: #fff;
+      padding: 40px 20px;
+      box-shadow: 0 -2px 10px rgba(0,0,0,0.1);
+      text-align: center;
+      border-radius: 10px;
+      width: 100%;
+    }
+
+    .footer-links a {
+      display: block;
+      margin: 12px auto;
+      text-decoration: none;
+      color: #fff;
+      padding: 12px 20px;
+      border-radius: 6px;
+      font-size: 16px;
+      max-width: 300px;
+      transition: background 0.3s ease;
+    }
+
+    .footer-links a i {
+      margin-right: 10px;
+    }
+
+    /* Platform-specific colors */
+    .insta    { background: #E4405F; }
+    .weverse  { background: #1ED760; }
+    .hybe     { background: #000000; }
+    .spotify  { background: #1DB954; }
+    .wiki     { background: #636363; }
+
+    .footer-links a:hover {
+      opacity: 0.85;
+    }
+
+    .copyright {
+      margin-top: 30px;
+      font-size: 14px;
+      color: #777;
+    }
+
+    .copyright a {
+      color: #777;
+      text-decoration: none;
+    }
+
+    .copyright a:hover {
+      text-decoration: underline;
+    }
+
+@media (max-width: 500px) {
+  header h1 {
+    font-size: 1.8rem;
+  }
+
+  .caption {
+    font-size: 0.9rem;
+  }
+}
+a{color:black;text-align:left;text-decoration:none;font-size:30px;}
+  </style>
+</head>
+<body>  
+<a href="../../index.html">⬅️ HOME</a>
+<header>
+
+    <h1>BTS V GALLERY</h1>
+    
+  </header>  <section class="gallery">
+    <div class="photo">
+      <img src="v1.jpg" alt="Photo 1">
+    </div>
+    <div class="photo">
+      <img src="v2.jpg" alt="Photo 2">
+    </div>
+    <div class="photo">
+      <img src="v3.jpg" alt="Photo 3">
+    </div>
+    <div class="photo">
+      <img src="v4.webp" alt="Photo 4">
+    </div>
+    <div class="photo">
+      <img src="v5.webp" alt="Photo 5">
+    </div>
+    <div class="photo">
+      <img src="v6.jpg" alt="Photo 6">
+    </div>
+ <div class="photo">
+      <img src="v7.webp" alt="Photo 7">
+    </div>
+    <div class="photo">
+      <img src="v8.webp" alt="Photo 8">
+    </div>
+    <div class="photo">
+      <img src="v9.webp" alt="Photo 9">
+    </div>
+    <div class="photo">
+      <img src="v10.webp" alt="Photo 10">
+    </div>
+    <div class="photo">
+      <img src="v11.webp" alt="Photo 11">
+    </div>
+    <div class="photo">
+      <img src="v12.webp" alt="Photo 12">
+    </div>
+    <div class="photo">
+      <img src="v13.webp" alt="Photo 13">
+    </div>
+    <div class="photo">
+      <img src="v14.webp" alt="Photo 14">
+    </div>
+ <div class="photo">
+      <img src="v15.webp" alt="Photo 15">
+    </div>
+    <div class="photo">
+      <img src="v16.jpg" alt="Photo 16">
+    </div>
+    <div class="photo">
+      <img src="v17.webp" alt="Photo 17">
+    </div>
+    <div class="photo">
+      <img src="v18.webp" alt="Photo 18">
+    </div>
+    <div class="photo">
+      <img src="v19.webp" alt="Photo 19">
+    </div>
+    <div class="photo">
+      <img src="v20.webp" alt="Photo 20">
+    </div>
+    <div class="photo">
+      <img src="v21.webp" alt="Photo 21">
+    </div>
+    <div class="photo">
+      <img src="v22.webp" alt="Photo 22">
+    </div>
+    <div class="photo">
+      <img src="v23.webp" alt="Photo 23">
+    </div>
+    <div class="photo">
+      <img src="v24.webp" alt="Photo 24">
+    </div>
+ <div class="photo">
+      <img src="v25.webp" alt="Photo 25">
+    </div>
+    <div class="photo">
+      <img src="v26.jpg" alt="Photo 26">
+    </div>
+    <div class="photo">
+      <img src="v27.webp" alt="Photo 27">
+    </div>
+    <div class="photo">
+      <img src="v28.webp" alt="Photo 28">
+    </div>
+    <div class="photo">
+      <img src="v29.webp" alt="Photo 29">
+    </div>
+    <div class="photo">
+      <img src="v30.webp" alt="Photo 30">
+    </div>
+    <div class="photo">
+      <img src="v31.png" alt="Photo 31">
+    </div>
+    <div class="photo">
+      <img src="v32.png" alt="Photo 32">
+    </div>
+    <div class="photo">
+      <img src="v33.png" alt="Photo 33">
+    </div>
+  </section>
+<footer>
+    <h2>Connect with Taehyung</h2>
+
+
+    <div class="footer-links">
+      <a href="https://instagram.com/thv" target="_blank" class="insta">
+        <i class="fab fa-instagram"></i> Taehyung on Instagram
+      </a>
+      <a href="https://weverse.io/bts/artist/1" target="_blank" class="weverse">
+        <i class="fas fa-comment-dots"></i> Taehyung on Weverse
+      </a>
+      <a href="https://www.hybecorp.com/eng/main" target="_blank" class="hybe">
+        <i class="fas fa-building"></i> HYBE Contact
+      </a>
+      <a href="https://open.spotify.com/artist/3JsHnjpbhX4SnySpvpa9DK" target="_blank" class="spotify">
+        <i class="fab fa-spotify"></i> Taehyung on Spotify
+      </a>
+      <a href="https://en.wikipedia.org/wiki/V_(singer)" target="_blank" class="wiki">
+        <i class="fab fa-wikipedia-w"></i> Taehyung on Wikipedia
+      </a>
+    </div>
+
+    <div class="copyright">
+     Made by <a href="https://www.instagram.com/web_developer30?igsh=MXdja2JldnYyN3hheA==">web-developer</a>
+    </div>
+  </footer>
+</body>
+
+</html>
